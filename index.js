@@ -2,7 +2,7 @@ document.onkeydown = updateKey;
 document.onkeyup = resetKey;
 
 var server_port = 65432;
-var server_addr = "192.168.1.209";   // the IP address of your Raspberry PI
+var server_addr = "192.168.123.132";   // the IP address of your Raspberry PI
 var command = null; // To hold the current command being sent
 var controlInterval; // To store the interval ID
 
