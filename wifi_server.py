@@ -6,7 +6,7 @@ import time
 # Initialize PicarX
 px = Picarx()
 
-HOST = "192.168.1.209"  # IP address of your Raspberry PI
+HOST = "192.168.123.132"  # IP address of your Raspberry PI
 PORT = 65432             # Port to listen on (non-privileged ports are > 1023)
 
 # Initialize variables to store the car's state
